@@ -10,14 +10,14 @@ class TaskCollection {
     }
 }
 
-class Task {
+class Arrow_function {
     toGulp() {
         console.log('Converting to Gulp');
     }
 }
 
 new TaskCollection([
-    new Task,
+    new Arrow_function,
 ]).prepare();
 
 let names = ['pnlinh', 'linhpn7'];
