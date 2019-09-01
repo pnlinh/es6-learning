@@ -1,4 +1,4 @@
-import {TaskCollection} from './TaskCollection';
+import TaskCollection from './TaskCollection';
 
 new TaskCollection([
     'code',

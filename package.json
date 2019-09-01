@@ -6,5 +6,8 @@
   },
   "scripts": {
     "build": "babel src -d output"
+  },
+  "dependencies": {
+    "rollup": "^1.20.3"
   }
 }

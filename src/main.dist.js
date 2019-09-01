@@ -1,3 +1,5 @@
+'use strict';
+
 class TaskCollection {
     constructor(tasks = []) {
         this.tasks = tasks;
@@ -8,4 +10,8 @@ class TaskCollection {
     }
 }
 
-export default TaskCollection;
+new TaskCollection([
+    'code',
+    'eat',
+    'sleep',
+]).dump();
